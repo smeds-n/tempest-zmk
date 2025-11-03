@@ -1,38 +1,38 @@
 layout: {zmk_keyboard: tempest}
 layers:
   default:
-  - Q
-  - W
-  - E
+  - V
   - R
-  - T
-  - Y
-  - U
-  - I
-  - O
+  - D
+  - B
+  - Q
+  - {t: ',', s: <}
   - P
+  - O
+  - U
+  - Y
   - MACRO
-  - {t: A, h: ⌘}
-  - {t: S, h: ⎇}
-  - {t: D, h: ⇧}
-  - {t: F, h: ⌃}
+  - {t: S, h: ⌘}
+  - {t: N, h: ⎇}
+  - {t: T, h: ⇧}
+  - {t: H, h: ⌃}
+  - K
   - G
-  - H
-  - {t: J, h: ⌃}
-  - {t: K, h: ⇧}
-  - {t: L, h: ⎇}
-  - {t: ;, h: ⌘, s: ':'}
+  - {t: C, h: ⌃}
+  - {t: A, h: ⇧}
+  - {t: E, h: ⎇}
+  - {t: I, h: ⌘}
   - MACRO
   - Z
   - X
-  - C
-  - V
-  - B
-  - N
   - M
-  - {t: ',', s: <}
+  - L
+  - J
+  - W
+  - F
+  - {t: ;, s: ':'}
+  - {t: '''', s: '"'}
   - {t: ., s: '>'}
-  - /
   - ⌃
   - {t: ⎵, h: nav, s: _}
   - {t: ↹, h: utility}
