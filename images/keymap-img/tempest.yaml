@@ -33,7 +33,7 @@ layers:
   - {t: '''', s: '"'}
   - {t: ;, s: ':'}
   - {t: ., s: '>'}
-  - ⌃
+  - '&key_repeat'
   - {t: ⎵, h: nav, s: _}
   - {t: ↹, h: utility}
   - {t: ⏎, h: number}
