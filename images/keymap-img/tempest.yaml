@@ -22,7 +22,7 @@ layers:
   - {t: A, h: ⇧}
   - {t: E, h: ⎇}
   - {t: I, h: ⌘}
-  - {t: macro right, h: '-'}
+  - MACRO
   - Z
   - X
   - M

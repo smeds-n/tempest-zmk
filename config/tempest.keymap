@@ -267,7 +267,7 @@
 
             bindings = <
              &kp V         &kp R            &kp D              &kp B         &kp Q      &kp COMMA      &kp P            &kp O               &kp U            &kp Y
-&macro_left  &bhm LMETA S  &bhm LEFT_ALT N  &bhm LEFT_SHIFT T  &bhm LCTRL H  &kp K      &kp G      &bhm RCTRL C     &bhm RIGHT_SHIFT A  &bhm LEFT_ALT E  &bhm LMETA I  &bhm MINUS macro_right
+&macro_left  &bhm LMETA S  &bhm LEFT_ALT N  &bhm LEFT_SHIFT T  &bhm LCTRL H  &kp K      &kp G      &bhm RCTRL C     &bhm RIGHT_SHIFT A  &bhm LEFT_ALT E  &bhm LMETA I  &macro_right
              &kp Z         &kp X            &kp M              &kp L         &kp J      &kp W      &kp F            &kp SEMI           &kp APOS          &kp DOT
                                             &kp LCTRL          &underspace   &lt 4 TAB  &lt 3 RET  &lt 2 BACKSPACE  &sk RIGHT_SHIFT
             >;
