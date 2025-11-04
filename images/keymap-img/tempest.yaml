@@ -33,12 +33,12 @@ layers:
   - {t: '''', s: '"'}
   - {t: ;, s: ':'}
   - {t: ., s: '>'}
-  - '&key_repeat'
+  - {t: ⇧, h: sticky}
   - {t: ⎵, h: nav, s: _}
   - {t: ↹, h: utility}
   - {t: ⏎, h: number}
   - {t: ⌫, h: symbol}
-  - {t: ⇧, h: sticky}
+  - '&key_repeat'
   nav:
   - MOUSE ←
   - MOUSE ↓
