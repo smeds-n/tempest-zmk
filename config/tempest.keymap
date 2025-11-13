@@ -223,6 +223,14 @@
             flavor = "balanced";
             bindings = <&kp>, <&kp>;
         };
+        l_r: l_r {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;    // <---[[moderate duration]]
+            quick-tap-ms = <0>;
+            flavor = "balanced";
+            bindings = <&mo>, <&key_repeat>;
+        };
 
         arrow_func_tap: arrow_func_tap {
             compatible = "zmk,behavior-tap-dance";
@@ -269,7 +277,7 @@
              &kp V         &kp R            &kp D              &kp B         &kp Q      &kp COMMA      &kp P            &kp O               &kp U            &kp Y
 &macro_left  &bhm LMETA S  &bhm LEFT_ALT N  &bhm LEFT_SHIFT T  &bhm LCTRL H  &kp K      &kp G      &bhm RCTRL C     &bhm RIGHT_SHIFT A  &bhm LEFT_ALT E  &bhm LMETA I  &macro_right
              &kp Z         &kp X            &kp M              &kp L         &kp J      &kp W      &kp F            &kp APOS           &kp SEMI          &kp DOT
-                                            &sk RIGHT_SHIFT          &underspace   &lt 4 TAB  &lt 3 RET  &lt 2 BACKSPACE  &key_repeat
+                                            &sk RIGHT_SHIFT          &underspace   &lt 4 TAB  &lt 3 RET  &l_r 2  &key_repeat
             >;
         };
 

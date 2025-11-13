@@ -37,7 +37,7 @@ layers:
   - {t: ⎵, h: nav, s: _}
   - {t: ↹, h: utility}
   - {t: ⏎, h: number}
-  - {t: ⌫, h: symbol}
+  - '&l_r 2'
   - '&key_repeat'
   nav:
   - MOUSE ←
@@ -115,7 +115,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   number:
   - F1
